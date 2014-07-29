@@ -223,8 +223,9 @@ textarea {
 .input-box {
 	max-height: 100px;
 	overflow: scroll;
-	white-space: nowrap;
+	white-space: pre;
 	tab-size: 20;
+	-moz-tab-size: 20;
 }
 
 #rightColumn cite {
@@ -243,7 +244,7 @@ textarea {
 @media (min-width: 1250px) {
 	#datainput .inputGroup {
 		float: left;
-		width: 46%;
+		width: 100%;
 		padding-right: 2%;
 		padding-left: 2%;
 	}
