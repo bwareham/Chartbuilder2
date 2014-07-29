@@ -1935,7 +1935,8 @@ function Gneiss(config)
 					.attr("class","legendLabel")
 					.attr("x",12)
 					.attr("y",18)
-					.attr("fill",function(d,i){return d.color? d.color : colors[i]})
+					.attr("fill","#666666")
+					.attr("dragFill", function(d,i){return d.color? d.color : colors[i]})
 					.text(function(d,i){return d.name});
 			
 			//if there is more than one line
