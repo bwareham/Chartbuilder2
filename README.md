@@ -59,23 +59,23 @@ A symptom of Internet Explorer. Charts still seem to render properly, but it's p
 #####Why do I get a "Warning: Data is Invalid" error when I paste my table?
 Chartbuilder requires clean data to work properly.
 + Do not include '%' or '$' symbols in your tables
-+ If the data looks clean, it may still contain hidden characters. Check the HTML table (Option 6) for things like '&nbsp' (a hidden space character).
++ If the data looks clean, it may still contain hidden characters (ex.: a non-breaking space - &nbsp;). 
 + Sometimes a second set of data pasted over your first will create a single line of information rather than a table. Reset the page and start over.
 
 #####My chart looks fine in the preview pane, but the exported image is missing details like the title, legend, source credit, etc.
-Hidden characters can prevent Chartbuilder from merging the layers that make up your chart on export. Check the HTML table (Option 6) for things like '&nbsp' (a hidden space character).
+Hidden characters (ex.: a non-breaking space - &nbsp;) can prevent Chartbuilder from merging the layers that make up your chart on export. 
 
 #####Chartbuilder's cramming all the years on the bottom axis so they're unreadable.
 Make sure the label on the column with your years is 'Date', not 'Year' or anything else. Chartbuilder will recognize this as a date and space out the years listed on the axis. The latest build has options for overriding the autospacing.
 
 #####The bottom axis shows a series of 'Jan. 1' instead of the years.
-The date format can be changed via the dropdown box in Option 5.
+The date format can be changed via the dropdown box in 'Bottom axis options'.
 
 #####I made a change that pushed the title, legend or other info off the chart. What can I do to fix it?
 This hasn't been happening as often after some code improvements. But if it does, you may be able to backtrack through your changes to get the preview back to something usable. Sometimes it's easier to refresh the page and start from scratch.
 
 #####I made changes to my chart that didn't show up in the downloaded image.
-That can happen if you make a change after clicking the "Save Image of Chart" button but before clicking the "Download Image of Chart" link. You need to click the "Save..." button again to save your changes. (You may have to do it twice to make the "Download..." button appear again.) 
+That can happen if you make a change after clicking the "Save chart" button but before clicking the "Download Image of Chart" link. You need to click the "Save chart" button again to save your changes. (You may have to do it twice to make the "Download..." button appear again.) 
 
 Examples of charts made with Chartbuilder
 ------------------------
