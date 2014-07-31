@@ -69,7 +69,7 @@ Hidden characters (ex.: a non-breaking space - &nbsp;) can prevent Chartbuilder 
 Make sure the label on the column with your years is 'Date', not 'Year' or anything else. Chartbuilder will recognize this as a date and space out the years listed on the axis. The latest build has options for overriding the autospacing.
 
 #####The bottom axis shows a series of 'Jan. 1' instead of the years.
-The date format can be changed via the dropdown box in 'Bottom axis options'.
+The date format can be changed via the dropdown box in 'Bottom Axis Options'.
 
 #####I made a change that pushed the title, legend or other info off the chart. What can I do to fix it?
 This hasn't been happening as often after some code improvements. But if it does, you may be able to backtrack through your changes to get the preview back to something usable. Sometimes it's easier to refresh the page and start from scratch.
