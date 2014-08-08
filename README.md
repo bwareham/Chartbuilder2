@@ -1,7 +1,7 @@
 Chartbuilder2
 ==========================
 
-Chartbuilder2 is a customized version of a charting tool hosted at https://github.com/Quartz/Chartbuilder. Changes include color palettes and fonts consistent with Minnesota Public Radio online style conventions. It also incorporates a design built on Zurb's Foundation framework. The design changes are cosmetic, with an eye toward providing a better experience especially for the first-time user. Quartz developers still deserve all the credit for the inner workings of the tool. 
+Chartbuilder2 is a customized version of a charting tool hosted at https://github.com/Quartz/Chartbuilder. Changes include color palettes and fonts consistent with Minnesota Public Radio online style conventions. It also incorporates a design built on Zurb's Foundation framework. The design changes are cosmetic, with an eye toward providing a better experience especially for the first-time user. Quartz developers still deserve all the credit for the inner workings of the tool. The working version of MPR News Chartbuilder is [here](http://tools.bilware.info/Chartbuilder/).
 
 What Chartbuilder is not
 -------------------------
