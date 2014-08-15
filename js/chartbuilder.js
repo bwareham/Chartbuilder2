@@ -848,11 +848,7 @@ ChartBuilder.start = function(config) {
 	
 	$("#createImageButton").click(function() {
 		ChartBuilder.inlineAllStyles();
-
-		if($("#downloadLinksDiv").hasClass("hide")) {
-			ChartBuilder.createChartImage();
-		}
-		$("#downloadLinksDiv").toggleClass("hide");
+		ChartBuilder.createChartImage();
 	});
 
 	$("#csvInput").bind("paste", function(e) {
@@ -1071,9 +1067,7 @@ ChartBuilder.start = function(config) {
 		chart.titleElement().text(chart.title());
 	});
 	
-	$(".downloadLink").click(function() {
-		$("#downloadLinksDiv").toggleClass("hide");
-	});
+
 
 	//store the decimal and thousands separators
 	ChartBuilder.separators = ChartBuilder.determineLocaleNumberSeps();
