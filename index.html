@@ -32,6 +32,17 @@
 				</li>
 			</ul>
 			<section class="top-bar-section">
+			<!-- Left Nav Section -->
+		    <ul class="left">
+				<li class="has-dropdown">
+					<a href="#"><strong>Navigate to:</strong></a>
+					<ul class="dropdown">
+						<li><a href="#">Preview Pane</a></li>
+						<li><a href="#input">Input Pane</a></li>
+						<li><a href="#option">Chart Options</a></li>
+					</ul>
+				  </li>
+			</ul>
 			<!-- Right Nav Section -->
 				<ul class="right">
 				  <li><a href="#" data-reveal-id="aboutModal">About</a></li>
@@ -49,7 +60,7 @@
 	
 	<!-- BREAK ROW -->
 	<div class="row">
-	<br><br>
+		<br><br>
 	</div>
 	
 	<!-- TOP SECTION: instructions, download buttons, chart -->
@@ -93,10 +104,15 @@
 	</div>
 	
 	<!-- INPUTS SECTION -->
-	<a id="input"></a>
+	<div class="row">
+		<a id="input"></a>
+	</div>
+	<div class="row">
+		<br><br><br>
+	</div>	
 	<div class="row">
 		<div class="large-12 columns">
-			<h2>Step 1: Input your data</h2>
+			<h2>Step 2: Input your data </h2>
 		</div>
 	</div>
 	<div class="row">
@@ -104,7 +120,6 @@
 			<div id="chartOptions" class="interfaceCol">
 				 <div id="datainput">
 					<div class="inputGroup">
-
 					<span id="invalidDataSpan" class="hide"><span class="fi-ban"></span> Warning: Data is Invalid</span>
 					<h4>Prep your data table in a spreadsheet, then copy and paste over default data the input box.</h4>
 					<textarea id="csvInput" class="input-box" name="csvInput" rows="8"></textarea>
@@ -133,8 +148,11 @@
 		</div>
 	</div>
 	<div class="row">
+		<a id="option"></a>	
+	</div>
+	<div class="row">
 		<div class="large-12 columns">
-			<a id="customize"><h2>Step 2: Chart options</h2></a>
+			<a id="customize"><h2>Step 3: Chart options</h2></a>
 		</div>
 	</div>
 	<div class="row" data-equalizer>
