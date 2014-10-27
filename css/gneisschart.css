@@ -63,7 +63,7 @@ svg text.bargridLabel {
 /*Default styling of series*/
 
 svg path.seriesLine {
-	stroke-width: 3px;
+	stroke-width: 5px;
 	stroke-linejoin: round;
 	stroke-linecap: round;
 	fill: none;
@@ -75,6 +75,8 @@ svg .seriesScatter circle {
 }
 	
 #titleLine {
-	font-family: 'Cutive',Helvetica, sans-serif;
-	fill: #282828;
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	fill: rgb(95, 92, 92);
+	font-weight: bold;
+	font-size: 18px;
 }
